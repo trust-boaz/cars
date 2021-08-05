@@ -1,0 +1,63 @@
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+@import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+.content{
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.flex{
+    width: 200px;
+    /* border: 0px solid #333; */
+    background-color: white;
+    padding: 50px
+}
+p{
+    margin-bottom: 60px;
+    font-family: 'Lexend Deca';
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 20px;
+}
+.col1, .col2, .col3{
+    min-height: 200px;
+    color: white;
+    padding: 30px;
+}
+h4{
+    font-size: 25px;
+    font-family: 'Big Shoulders Display';
+    color: hsl(0, 0%, 95%);
+}
+.cta{
+    border: 1px solid  hsl(0, 0%, 95%);;
+    border-radius: 40px;
+    padding: 10px 30px;
+    font-family: 'Lexend Deca';
+    text-decoration: none;
+    color: hsl(0, 0%, 95%);
+}
+#cta1:hover{
+    background: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+}
+#cta2:hover{
+    background: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+#cta3:hover{
+    background: hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%);
+}
+.col1{
+    background-color: hsl(31, 77%, 52%);     
+}
+.col2{
+    background-color:  hsl(184, 100%, 22%);
+}
+.col3{
+    background-color: hsl(179, 100%, 13%);
+}
